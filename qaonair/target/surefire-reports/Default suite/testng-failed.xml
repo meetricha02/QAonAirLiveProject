@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="com.itelearn.Listeners.ListenerTest"/>
+    <listener class-name="Resources.ExtentReporting"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.itelearn.dataProviders.ExcelDDF">
+        <methods>
+          <include name="settingBrowserProperties"/>
+          <include name="loginDataSet" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.itelearn.dataProviders.ExcelDDF -->
+      <class name="com.itelearn.TestBase.BaseTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.itelearn.TestBase.BaseTest -->
+      <class name="com.itelearn.dataProviders.dataSetsTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="settingBrowserProperties"/>
+        </methods>
+      </class> <!-- com.itelearn.dataProviders.dataSetsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

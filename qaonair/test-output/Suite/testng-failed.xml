@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.itelearn.dataProviders.dataSetsTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="loginDataSet" invocation-numbers="0 1"/>
+          <include name="settingBrowserProperties"/>
+        </methods>
+      </class> <!-- com.itelearn.dataProviders.dataSetsTest -->
+      <class name="com.itelearn.TestBase.BaseTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.itelearn.TestBase.BaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

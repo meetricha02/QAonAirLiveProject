@@ -1,0 +1,5 @@
+10:20:50.625 [main] INFO  com.itelearn.Utility.SeleniumHelperTest - -----------typing the text---------
+10:20:51.069 [main] INFO  com.itelearn.Utility.SeleniumHelperTest - -----------typing the text---------
+10:20:51.597 [main] INFO  com.itelearn.Utility.SeleniumHelperTest - -----------Clicking the button--------- for element .//button[text()='Sign Up']
+10:20:51.903 [main] INFO  com.itelearn.TestBase.BaseTest - The test case name is:TC_FreeL_SignUp_002
+10:20:51.904 [main] INFO  com.itelearn.TestBase.BaseTest - The test case name is:TC_FindProj_001
